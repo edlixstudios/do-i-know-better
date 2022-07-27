@@ -15,7 +15,7 @@
     tried = true;
     const randomNumber = Math.random();
 
-    if (randomNumber < .8){
+    if (randomNumber < .7){
       screenText = "No!! 🤬 Shut up and listen! 🤐"
     }else{
       screenText = "Yes you do! 🤓👌"
