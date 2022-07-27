@@ -47,9 +47,9 @@
     </div>
     <div class="flex flex-col gap-2 h-1/2 justify-center" >
       {#if !tried}
-      <button on:click={getAnswer} class="text-2xl font-bold text-slate-800 bg-slate-100 py-2 px-8 rounded-full transition-all md:text-4xl xl:font-sans xl:text-5xl xl:hover:scale-110 " >Let's find out</button>
+      <button on:click={getAnswer} class="text-2xl font-bold text-slate-800 bg-slate-100 py-2 px-8 rounded-full transition-all md:text-4xl xl:font-sans xl:text-5xl hover:scale-110 active:scale-90" >Let's find out</button>
       {:else}
-        <button on:click={reset} class="text-slate-200 text-lg md:text-1xl xl:text-3xl" >Wanna try again?</button>
+        <button on:click={reset} class="text-slate-200 text-lg transition-all md:text-1xl xl:text-3xl hover:scale-110 active:scale-90" >Wanna try again?</button>
       {/if}
     </div>
   </div>
